@@ -58,3 +58,40 @@ const [x, ...y] = arr1;
 console.log("x: ", x);
 console.log("y: ", y);
 
+
+
+//saját gyakorlás:
+const fruits = ["alma", "körte", "citrom", "narancs"]
+const [first, second] = fruits
+console.log("first :", first)
+console.log("second :", second)
+
+const [firstFruit, ...otherFruits] = fruits
+console.log("firstFruit :", firstFruit)
+console.log("otherFruits :", otherFruits)
+
+
+const myHusband = {
+    name: "Gábor",
+    age: 29, 
+    profession: "QA"
+}
+
+const {age, profession} = myHusband
+//console.log("age :", age)
+//console.log("profession :", profession)
+
+const nameOfMyHusband = myHusband.name
+const ageOfMyHusband = myHusband.age
+const professionOfMyHusband = myHusband.profession
+//console.log(ageOfMyHusband)
+//console.log(nameOfMyHusband)
+//console.log(professionOfMyHusband)
+
+const nameAndAgeOfMyHusband = ({name, age}) => {
+
+    console.log("name :", name)
+    console.log("age :", age)
+
+}
+nameAndAgeOfMyHusband(myHusband)
