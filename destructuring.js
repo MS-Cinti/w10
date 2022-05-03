@@ -77,7 +77,7 @@ const myHusband = {
     profession: "QA"
 }
 
-const {age, profession} = myHusband
+const {age, profession} = myHusband //84-86. sor shorthandje, itt az age és profession változók lettek
 //console.log("age :", age)
 //console.log("profession :", profession)
 

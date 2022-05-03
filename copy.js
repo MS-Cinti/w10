@@ -29,8 +29,9 @@ const fruits = ["alma", "körte", "citrom", "narancs"]
 const vegetables = ["paprika", "paradicsom", "hagyma", "retek"]
 
 //lemásoljuk csak az egyik tömböt: 
-const copyArray = [...vegetables]
-//console.log(copyArray)
+fruits.push("eper")
+const copyArray = [...fruits]
+console.log(copyArray)
 
 //lemásoljuk mindegyiket: 
 const mergedArrays = [...vegetables, ...fruits]
