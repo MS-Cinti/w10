@@ -10,9 +10,9 @@ const userProfile = {
 //const name = userProfile.name;
 //const age = userProfile.age; 
 
-//const {name, age} = userProfile;   //11,12-es sorok shorthandje a destructuring verziója
+const {name, country} = userProfile;   //11,12-es sorok shorthandje a destructuring verziója
 //console.log("name: ", name);
-//console.log("age: ", age);
+//console.log("country: ", country);
 
 //régebbi verzió
 /* 
@@ -29,8 +29,8 @@ logNameAndAge(userProfile);
 //újabb verzió
 const logNameAndAge = ({name, age}) => {
 
-    //console.log("name: ", name);
-    //console.log("age: ", age);
+    console.log("name: ", name);
+    console.log("age: ", age);
 
 }
 
